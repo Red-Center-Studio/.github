@@ -6,6 +6,7 @@ Website: https://redcenterstudio.com
 
 ### Public repositories
 
+- [claude-plugins](https://github.com/Red-Center-Studio/claude-plugins): a Claude plugin marketplace with free website checks (GEO audit, single point of failure scan, Bubble error decoder), WebDesk websites built by an agent, and the no-code app audit. Add it in Claude Code with `/plugin marketplace add Red-Center-Studio/claude-plugins`.
 - [nocode-migration-audit](https://github.com/Red-Center-Studio/nocode-migration-audit): a free, read-only audit skill for Claude Code. It reads a no-code app's structure and writes a plain-language report and a neutral app spec. Bubble® is supported today.
 - [prestart-lite](https://github.com/Red-Center-Studio/prestart-lite): daily vehicle pre-start checks and a defect workflow for small fleets, on Cloudflare Workers.
 - [catchdesk-lite](https://github.com/Red-Center-Studio/catchdesk-lite): enquiries with photos and quotes customers accept online, for small service businesses, on your own Cloudflare account.
