@@ -4,10 +4,21 @@ A small remote studio that builds custom apps, fast websites and AI agents as co
 
 Website: https://redcenterstudio.com
 
+### Claude connectors
+
+Remote MCP servers you add to Claude as custom connectors. Addresses and setup steps: [claude-connectors](https://github.com/Red-Center-Studio/claude-connectors).
+
+- **WebDesk for Claude:** build, preview and publish a small business website from Claude, with a quote form and an enquiry inbox. https://redcenterstudio.com/webdesk/claude/
+- **Site Watch:** website monitoring for domain and certificate expiry, DNS and email records, AI crawler access and uptime. https://redcenterstudio.com/sitewatch/
+- **VaultSheet:** fills security questionnaires from answers your team approved, word for word. https://redcenterstudio.com/vaultsheet/
+- **Free website checks:** GEO audit, domain health, AI crawler access, single point of failure scan and Bubble® error decoder, no sign-in. https://redcenterstudio.com/claude-connectors/website-checks/
+- **No-code app data migrator:** moves app data to your own Cloudflare account, with a free audit. https://redcenterstudio.com/products/no-code-migrator/
+
 ### Public repositories
 
-- [claude-plugins](https://github.com/Red-Center-Studio/claude-plugins): a Claude plugin marketplace with free website checks (GEO audit, single point of failure scan, Bubble error decoder), WebDesk websites built by an agent, and the no-code app audit. Add it in Claude Code with `/plugin marketplace add Red-Center-Studio/claude-plugins`.
-- [nocode-migration-audit](https://github.com/Red-Center-Studio/nocode-migration-audit): a free, read-only audit skill for Claude Code. It reads a no-code app's structure and writes a plain-language report and a neutral app spec. Bubble® is supported today.
+- [claude-connectors](https://github.com/Red-Center-Studio/claude-connectors): addresses, setup steps and MCP Registry metadata for every connector above.
+- [claude-plugins](https://github.com/Red-Center-Studio/claude-plugins): a Claude plugin marketplace with the free website checks, WebDesk for Claude, Site Watch, VaultSheet, WebDesk websites built by an agent, and the no-code app audit. Add it in Claude Code with `/plugin marketplace add Red-Center-Studio/claude-plugins`.
+- [nocode-migration-audit](https://github.com/Red-Center-Studio/nocode-migration-audit): a free, read-only audit skill for Claude Code. It reads a no-code app's structure and writes a plain-language report and a neutral app spec. Bubble is supported today.
 - [prestart-lite](https://github.com/Red-Center-Studio/prestart-lite): daily vehicle pre-start checks and a defect workflow for small fleets, on Cloudflare Workers.
 - [catchdesk-lite](https://github.com/Red-Center-Studio/catchdesk-lite): enquiries with photos and quotes customers accept online, for small service businesses, on your own Cloudflare account.
 - [housemoot-lite](https://github.com/Red-Center-Studio/housemoot-lite): rent, shared bills, chores, repairs and house rules for one shared house, on your own Cloudflare account.
@@ -22,4 +33,4 @@ PreStart, CatchDesk, Binwright and Housemoot started on Bubble and now run as ow
 
 A GEO audit and a single point of failure scanner: https://redcenterstudio.com/tools/
 
-Bubble is a registered trademark of Bubble Group, Inc. Red Center Studio is not affiliated with, endorsed by or certified by Bubble. Cloudflare and Workers are trademarks of Cloudflare, Inc.
+Bubble is a registered trademark of Bubble Group, Inc. Red Center Studio is not affiliated with, endorsed by or certified by Bubble or Anthropic. Cloudflare and Workers are trademarks of Cloudflare, Inc.
