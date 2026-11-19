@@ -12,7 +12,7 @@ Remote MCP servers you add to Claude as custom connectors. Addresses and setup s
 - **Site Watch:** website monitoring for domain and certificate expiry, DNS and email records, AI crawler access and uptime. https://redcenterstudio.com/sitewatch/
 - **VaultSheet:** fills security questionnaires from answers your team approved, word for word. https://redcenterstudio.com/vaultsheet/
 - **Free website checks:** GEO audit, domain health, AI crawler access, single point of failure scan and Bubble® error decoder, no sign-in. https://redcenterstudio.com/claude-connectors/website-checks/
-- **Bubble to Cloudflare App & Data Migrator:** moves a Bubble app's UI, backend, D1 database, and R2 files into your own Cloudflare account, with a free audit and 3-page preview. https://redcenterstudio.com/products/no-code-migrator/
+- **Bubble to Cloudflare App & Data Migrator:** moves a Bubble app's UI, backend, D1 database, and R2 files into your own Cloudflare account, with a free audit and 10-page preview. https://redcenterstudio.com/products/no-code-migrator/
 
 ### Public repositories
 
