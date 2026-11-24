@@ -12,7 +12,7 @@ Remote MCP servers you add to Claude as custom connectors. Addresses and setup s
 - **Site Watch:** website monitoring for domain and certificate expiry, DNS and email records, AI crawler access and uptime. https://redcenterstudio.com/sitewatch/
 - **VaultSheet:** fills security questionnaires from answers your team approved, word for word. https://redcenterstudio.com/vaultsheet/
 - **Free website checks:** GEO audit, domain health, AI crawler access, single point of failure scan and Bubble® error decoder, no sign-in. https://redcenterstudio.com/claude-connectors/website-checks/
-- **Bubble to Cloudflare App & Data Migrator:** moves a Bubble app's UI, backend, D1 database, and R2 files into your own Cloudflare account, with a free audit and 10-page preview. https://redcenterstudio.com/products/no-code-migrator/
+- **Bubble to Cloudflare App & Data Migrator:** moves a Bubble app's UI, backend, D1 database, and R2 files into your own Cloudflare account, with a free audit and 10-page preview (Small $159, Standard $299, Large $389, Developer mode $45 USD; data-only passes from $39 USD). https://redcenterstudio.com/app-mover/ and https://redcenterstudio.com/app-mover/?tab=data#run
 
 ### Public repositories
 
@@ -23,13 +23,14 @@ Remote MCP servers you add to Claude as custom connectors. Addresses and setup s
 - [nocode-migration-audit](https://github.com/Red-Center-Studio/nocode-migration-audit): a free, read-only audit skill for Claude Code. It reads a no-code app's structure and writes a plain-language report and a neutral app spec. Bubble is supported today.
 - [prestart-lite](https://github.com/Red-Center-Studio/prestart-lite): daily vehicle pre-start checks and a defect workflow for small fleets, on Cloudflare Workers.
 - [catchdesk-lite](https://github.com/Red-Center-Studio/catchdesk-lite): enquiries with photos and quotes customers accept online, for small service businesses, on your own Cloudflare account.
-- [housemoot-lite](https://github.com/Red-Center-Studio/housemoot-lite): rent, shared bills, chores, repairs and house rules for one shared house, on your own Cloudflare account.
-- [binwright-lite](https://github.com/Red-Center-Studio/binwright-lite): free, open-source stock tracking for vans, storerooms, shelves and kits, on your own Cloudflare account.
+- [sharehouse-manager-lite](https://github.com/Red-Center-Studio/sharehouse-manager-lite): rent, shared bills, chores, repairs and house rules for one shared house, on your own Cloudflare account.
+- [stockroom-lite](https://github.com/Red-Center-Studio/stockroom-lite): free, open-source stock tracking for vans, storerooms, shelves and kits, on your own Cloudflare account.
 - [webdesk-mcp](https://github.com/Red-Center-Studio/webdesk-mcp): WebDesk MCP server information for AI agents that build small business websites: client examples, docs links and MCP Registry metadata.
+- [rcs-agent-skills](https://github.com/Red-Center-Studio/rcs-agent-skills): free Agent Skills (`SKILL.md`) for Claude Code, Cursor, and Antigravity, including `geo-audit`.
 
 ### Apps we rebuilt as code we own
 
-PreStart, CatchDesk, Binwright and Housemoot started on Bubble and now run as owned code on Cloudflare. Live demos: https://redcenterstudio.com/services/no-code-app-porting/#rebuilds
+PreStart, CatchDesk, StockRoom and Sharehouse Manager started on Bubble and now run as owned code on Cloudflare. Live demos: https://redcenterstudio.com/services/no-code-app-porting/#rebuilds
 
 ### Free tools
 
